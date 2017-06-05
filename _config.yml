@@ -1,0 +1,36 @@
+analytics:
+  google:
+    id: UA-33449675-7
+
+repository: https://github.com/iROCKBUNNY/BYR123-Redirect
+
+timezone: Asia/Shanghai
+
+name: BYR123 Redirect
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: TEELAB
+organization_url: http://teelab.net
+description: A Redirection Website for BYR-Navi
+keywords: BYR123, Redirect, BYR-Navi, BYR, BUPT, Navi, Navigation
+url: http://byr123.irockbunny.com/
+contact: contact[at]irockbunny[dot]com
+
+logo: /images/logo.png
+logo_dark: /images/logo-dark.png
+logo_white: /images/logo-white.png
+
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
