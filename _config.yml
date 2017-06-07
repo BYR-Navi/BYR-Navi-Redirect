@@ -2,17 +2,17 @@ analytics:
   google:
     id: UA-33449675-7
 
-repository: https://github.com/iROCKBUNNY/BYR123-Redirect
+repository: https://github.com/iROCKBUNNY/BYR-Navi-Redirect
 
 timezone: Asia/Shanghai
 
-name: BYR123 Redirect
+name: BYR-Navi Redirect
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: TEELAB
 organization_url: http://teelab.net
 description: A Redirection Website for BYR-Navi
-keywords: BYR123, Redirect, BYR-Navi, BYR, BUPT, Navi, Navigation
+keywords: Redirect, BYR-Navi, BYR, BUPT, Navi, Navigation
 url: http://byr123.irockbunny.com/
 contact: contact[at]irockbunny[dot]com
 
