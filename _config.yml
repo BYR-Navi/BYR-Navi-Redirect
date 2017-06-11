@@ -2,7 +2,7 @@ analytics:
   google:
     id: UA-33449675-7
 
-repository: https://github.com/iROCKBUNNY/BYR-Navi-Redirect
+repository: https://github.com/BYR-Navi/BYR-Navi-Redirect
 
 timezone: Asia/Shanghai
 
