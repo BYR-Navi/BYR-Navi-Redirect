@@ -1,3 +1,3 @@
-// customize-home.js
+// home.js
 
 window.location.replace('http://byr-navi.com/');
