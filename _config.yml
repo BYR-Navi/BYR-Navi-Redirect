@@ -7,16 +7,19 @@ repository: https://github.com/BYR-Navi/BYR-Navi-Redirect
 timezone: Asia/Shanghai
 lang: zh_CN
 
-name: BYR-Navi Redirect
+image: BYR-Navi Redirect
+description: A Redirection Website for BYR-Navi
+keywords: Redirect, BYR-Navi, BYR, BUPT, Navi, Navigation
+url: http://byr123.irockbunny.com/
+
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: TEELAB
 organization_url: http://teelab.net
-description: A Redirection Website for BYR-Navi
-keywords: Redirect, BYR-Navi, BYR, BUPT, Navi, Navigation
-url: http://byr123.irockbunny.com/
+
 contact: contact[at]irockbunny[dot]com
 
+image: /images/logo.png
 logo: /images/logo.png
 logo_dark: /images/logo-dark.png
 logo_white: /images/logo-white.png
