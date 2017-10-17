@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="//unpkg.com/semantic-ui/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/common.css' | relative_url }}">
-    {% if page.home %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">{% endif %}
-    {% if page.error %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/error.css' | relative_url }}">{% endif %}
+    {% if page.active_key == 'home' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/home.css' | relative_url }}">{% endif %}
+    {% if page.active_key == 'error' %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/error.css' | relative_url }}">{% endif %}
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/masthead.css' | relative_url }}">
     <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
@@ -21,11 +21,7 @@
     {% include following_menu.html %}
     {% include sidebar_menu.html %}
     <div class="pusher">
-        <div class="ui inverted vertical masthead center aligned segment zoomed">
-            {% include menu.html %}
-            {% if page.home %}{% include home_header.html %}{% endif %}
-            {% if page.error %}{% include error_header.html %}{% endif %}
-        </div>
+        {% include header.html %}
         {{ content }}
         {% include footer.html %}
     </div>
@@ -40,6 +36,6 @@
         };
     </script>
     <script type="text/javascript" src="{{ '/assets/js/common.js' | relative_url }}"></script>
-    {% if page.home %}<script type="text/javascript" src="{{ '/assets/js/home.js' | relative_url }}"></script>{% endif %}
+    {% if page.active_key == 'home' %}<script type="text/javascript" src="{{ '/assets/js/home.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>

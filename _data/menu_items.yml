@@ -1,0 +1,6 @@
+- name: BYR-Navi Redirect
+  icon:
+    name: right arrow
+    color: yellow
+  url: /
+  active_key: home

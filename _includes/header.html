@@ -1,0 +1,18 @@
+<div class="ui inverted vertical masthead center aligned segment zoomed">
+    <div class="ui container">
+        <div class="ui large secondary inverted pointing menu" style="border: none;">
+            <a class="toc item"><i class="sidebar icon"></i></a>
+            {% include menu_items.html %}
+            <div class="right menu">
+                <a class="item" href="{{ site.repository }}" target="_blank"><i class="github icon"></i>GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui text container">
+        {% if page.active_key == 'home' %}
+            <h1 class="ui inverted header"><i class="right arrow icon"></i>{{ site.title }}</h1>
+        {% elsif page.active_key == 'error' %}
+            <h1 class="ui inverted header"><i class="frown icon"></i>Page Not Found</h1>
+        {% endif %}
+    </div>
+</div>
