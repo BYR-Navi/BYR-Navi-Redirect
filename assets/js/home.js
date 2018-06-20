@@ -1,3 +1,3 @@
 // home.js
 
-window.location.replace('http://byr-navi.com/');
+window.location.replace('https://byr-navi.com/');

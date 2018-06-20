@@ -3,4 +3,4 @@
 [![License](https://img.shields.io/github/license/BYR-Navi/BYR-Navi-Redirect.svg)](/blob/master/LICENSE)
 
 # BYR-Navi Redirect
-A Redirection Website for [BYR-Navi](http://byr-navi.com/)
+A Redirection Website for [BYR-Navi](https://byr-navi.com/)
